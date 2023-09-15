@@ -12,7 +12,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  font-size: 16px;  
+  font-size: 16px;
   margin: 0 auto;
   width: 1440px;
 }
@@ -58,14 +58,13 @@ img {
   display: block;
   width: 100%;
   height: auto;
-  }
+}
 
 /* section header */
 .header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 1px 6px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header_inner {
@@ -123,14 +122,14 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav_header_link_first{
+.nav_header_link_first {
   color: #404bbf;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav_header_link_first::after{
-  content: '';
+.nav_header_link_first::after {
+  content: "";
   display: block;
   width: 100%;
   position: absolute;
@@ -171,6 +170,16 @@ img {
 .hero_section {
   background-color: #2e2f42;
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/header-people-office.jpg);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero_section_one {
@@ -213,15 +222,15 @@ img {
   padding: 120px 0;
 }
 
-.ul_description_company{
+.ul_description_company {
   padding: 0;
   margin: 0;
   display: flex;
   gap: 24px;
-  flex-wrap: wrap;/* TODO: */
+  flex-wrap: wrap; /* TODO: */
 }
 
-.li_description_company{
+.li_description_company {
   width: calc((100% - 72px) / 4);
   min-width: 150px;
 }
@@ -257,7 +266,7 @@ img {
   margin-bottom: 72px;
 }
 
-.ul_our_team{
+.ul_our_team {
   display: flex;
   gap: 24px;
   padding-left: 0;
@@ -272,11 +281,11 @@ img {
   min-width: 250px;
 }
 
-.container_description_personal{
+.container_description_personal {
   padding: 32px 0;
 }
 
-.h_three_description_company{
+.h_three_description_company {
   text-align: center;
 }
 
@@ -289,8 +298,8 @@ img {
 
 /* section third our portfolio */
 
-.section_three_our_portfolio{
-  padding: 120px 0;  
+.section_three_our_portfolio {
+  padding: 120px 0;
 }
 
 .h_two_portfolio {
@@ -303,7 +312,7 @@ img {
   margin-bottom: 72px;
 }
 
-.ul_our_portfolio{
+.ul_our_portfolio {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -311,15 +320,15 @@ img {
   padding: 0;
 }
 
-.our_portfolio_list{
+.our_portfolio_list {
   width: calc((100% - 48px) / 3);
   min-width: 250px;
 }
 
-.description_our_portfolio{
+.description_our_portfolio {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  border-top: none;  
+  border-top: none;
   text-align: start;
 }
 
@@ -328,11 +337,11 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42; 
+  color: #2e2f42;
   margin-bottom: 8px;
 }
 
-.p_our_portfolio{
+.p_our_portfolio {
   text-align: start;
 }
 
