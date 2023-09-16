@@ -215,6 +215,9 @@ img {
 .button:focus {
   background-color: #404bbf;
 }
+/* END hero section */
+
+
 
 /* srction first description */
 
@@ -233,6 +236,17 @@ img {
 .li_description_company {
   width: calc((100% - 72px) / 4);
   min-width: 150px;
+}
+
+.development_icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 100px;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+  
 }
 
 .description_company_title {
