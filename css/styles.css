@@ -402,6 +402,10 @@ img {
   text-align: start;
 }
 
+.p_our_portfolio:hover{
+  transform: translateY(0%);
+}
+
 /* footer */
 
 .footer {
