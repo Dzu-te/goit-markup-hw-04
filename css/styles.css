@@ -402,8 +402,8 @@ img {
   text-align: start;
 }
 
-.our_portfolio_list:hover .p_our_portfolio{
-  transform: translateY(0%);
+.our_portfolio_list:hover .op_img_text{
+  transform: translateY(0%);  
 }
 /* footer */
 
