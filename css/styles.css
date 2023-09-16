@@ -402,7 +402,7 @@ img {
   text-align: start;
 }
 
-.p_our_portfolio:hover{
+.our_portfolio_list .p_our_portfolio:hover{
   transform: translateY(0%);
 }
 
