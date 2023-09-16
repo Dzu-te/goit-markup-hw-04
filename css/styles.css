@@ -461,7 +461,7 @@ img {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin: 0;
+  margin: 0;  
 }
 
 .footer_container{
@@ -471,4 +471,12 @@ img {
 
 .footer_info{
   margin-right: 120px;
+}
+
+.f_social_text{
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;  
 }
