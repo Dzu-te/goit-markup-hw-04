@@ -474,6 +474,7 @@ img {
 }
 
 .f_social_text{
+  margin: 0;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
