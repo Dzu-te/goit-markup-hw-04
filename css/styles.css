@@ -373,14 +373,9 @@ img {
 .our_portfolio_list {
   width: calc((100% - 48px) / 3);
   min-width: 250px;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  }
 
-.our_portfolio_list:hover{
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+
 
 .description_our_portfolio {
   padding: 32px 16px;
@@ -402,7 +397,7 @@ img {
   text-align: start;
 }
 
-.p_our_portfolio:hover{
+.p_our_portfolio{
   transform: translateY(0%);
 }
 
