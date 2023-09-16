@@ -402,10 +402,9 @@ img {
   text-align: start;
 }
 
-.our_portfolio_list .p_our_portfolio:hover{
+.our_portfolio_list:hover .p_our_portfolio{
   transform: translateY(0%);
 }
-
 /* footer */
 
 .footer {
